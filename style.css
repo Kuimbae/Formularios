@@ -8,11 +8,7 @@
 body {
             font-family: Arial, sans-serif;
             background-color: #39cac3;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
+}
 
 
         header {
@@ -20,22 +16,29 @@ body {
             display: flex;
             justify-content: center;
             align-items: center;
-            margin-top: 0;
+            margin-top: 25px;
             color: white;
+            font-size: 30px;
+            font-weight: bold;
         }
         .container {
             background: white;
             padding: 20px;
             border-radius: 10px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 15px 0px 10px rgba(0, 0, 0, 0.1);
+            width: 40%;
+            margin: 0 auto;
+            margin-top: 35px;
         }
         label {
             font-weight: bold;
+            display:flex;
+            flex-direction: column;
         }
         input, select {
-            width: 100%;
+            width: 90%;
             padding: 8px;
-            margin: 5px 0 10px 0;
+            margin: 2px 0 10px 0;
             border: 1px solid #ccc;
             border-radius: 5px;
         }
@@ -49,5 +52,13 @@ body {
             border-radius: 5px;
         }
         button:hover {
-            background: #218838;
+            background: #1825da;
         }
+
+        #telefono, #password, #email, #nombre, #apellido, #fechanacimiento { 
+            width: 50%;
+        }
+        #mascotas{
+            width: 15%;
+        }
+        
