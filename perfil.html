@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Perfil de usuario</title>
+
+    <script>
+        window.onload = function() {
+            // Recuperamos los datos del localStorage y los mostramos en la página
+            document.getElementById('nombrePerfil').innerText = localStorage.getItem('nombre');
+            document.getElementById('apellidoPerfil').innerText = localStorage.getItem('apellido');
+            document.getElementById('emailPerfil').innerText = localStorage.getItem('email');
+            document.getElementById('telefonoPerfil').innerText = localStorage.getItem('telefono');
+        }
+    </script>
+
+</head>
+
+<body>
+    <header>
+        <h1>PERFIL DE USUARIO</h1>
+    </header>
+    <div>
+<input type="image" src="https://img.freepik.com/vector-premium/ilustracion-avatar-hombre-negocios-retrato-usuario-dibujos-animados-icono-perfil-usuario_118339-5507.jpg?w=2000
+" alt="foto de perfil" width="100" height="100">
+
+
+
+    </div>
+
+
+    <div class="container">
+        
+        <p><strong>Nombre:</strong> <span id="nombrePerfil"></span></p>
+        <p><strong>Apellido:</strong> <span id="apellidoPerfil"></span></p>
+        <p><strong>Correo Electrónico:</strong> <span id="emailPerfil"></span></p>
+        <p><strong>Teléfono:</strong> <span id="telefonoPerfil"></span></p>
+
+    </div>
+    <form action="index.html" method="get">
+        <button type="submit">Volver al inicio</button>
+    </form>
+   </body>
+</html>
