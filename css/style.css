@@ -62,7 +62,7 @@ button:hover {
     background: #1825da;
 }
 
-#telefono, #password, #email, #nombre, #apellido, #fechanacimiento { 
+#telefono, #password, #email, #nombre, #apellido, #fechanacimiento, #pais { 
     width: 50%;
 }
 #mascotas{

@@ -46,7 +46,14 @@
 
             <label for="telefono" >Teléfono:</label>
             <input type="tel" id="telefono" pattern="[0-9]{9}" title="Introduce un número de teléfono válido (9 dígitos)" name="telefono" size="9" required>
-
+            
+            <label for="pais">País:</label>
+            <select id="pais" name="pais">
+                <option value="es">España</option>
+                <option value="mx">México</option>
+                <option value="ar">Argentina</option>
+            </select>
+            
             <div class="field-group">
                 <label for="mascotas">Nº de gatos:</label>
                 <input type="number" id="mascotas" name="mascotas" min="0" max="99" required>
