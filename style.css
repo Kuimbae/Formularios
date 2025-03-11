@@ -29,11 +29,17 @@ body {
             width: 40%;
             margin: 0 auto;
             margin-top: 35px;
+            display: flex;
+    flex-direction: column;
+    text-align: center;
         }
+        
         label {
             font-weight: bold;
             display:flex;
             flex-direction: column;
+            text-align:left;
+            margin-left: 25%;
         }
         input, select {
             width: 90%;
