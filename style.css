@@ -35,15 +35,17 @@ body {
         }
         
         label {
-            font-weight: bold;
-            display:flex;           
+            display: flex;
+            flex-direction: column;
+            font-weight: bold;        
             text-align:left;
             margin-left: 25%;
+
         }
         input, select {
+            flex-direction: column;
             width: 10%;
             padding: 8px;
-            margin: 2px 0 10px 0;
             border: 1px solid #ccc;
             border-radius: 5px;
             
@@ -67,14 +69,16 @@ body {
         #mascotas{
             width: 15%;
             display: inline-block;
-           
-        }
 
-        label[for="mascotas"] {
-            display: inline-block;
-            width: 58%;            
+           
            
         }
+        .terminos{
+            display: inline-block;
+            margin-top: 15px;
+            margin-bottom: 4%;
+        }
+       
       
             
        
