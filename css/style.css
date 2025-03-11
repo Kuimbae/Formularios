@@ -1,0 +1,87 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #39cac3;
+}
+
+
+header {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 15px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;        
+    text-align:left;
+    margin-left: 25%;
+    margin-bottom: 1%;
+}
+input, select {
+    width: 10%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 1%;
+}
+button {
+    background: #28a745;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 33%;
+    border-radius: 5px;
+}
+button:hover {
+    background: #1825da;
+}
+
+#telefono, #password, #email, #nombre, #apellido, #fechanacimiento { 
+    width: 50%;
+}
+#mascotas{
+    width: 15%;
+    display: inline-block;
+}
+.terminos{
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 4%;
+}
+.field-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.field-group label {
+    font-weight: bold;
+    min-width: 120px; /* Ajusta según necesidad */
+}
