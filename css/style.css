@@ -99,15 +99,17 @@ button:hover {
     }
 
     input, select {
-        width: 100%;
+        width: 10%;
     }
+   
 
     button {
         width: 100%;
+        margin-bottom: 10px;
     }
 
     .field-group {
-        flex-direction: column;
+        
         align-items: flex-start;
     }
 
@@ -115,6 +117,7 @@ button:hover {
         flex-direction: column;
         align-items: flex-start;
     }
+
 }
 
 @media (max-width: 480px) { /* Móviles */
@@ -134,5 +137,8 @@ button:hover {
     input, select, button {
         font-size: 14px;
         padding: 8px;
+        margin-bottom: 10px;
+
+        
     }
 }
